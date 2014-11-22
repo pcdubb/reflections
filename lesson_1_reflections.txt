@@ -1,0 +1,21 @@
+xx How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-- Well, it pointed out the differences between the two files. 
+Then, scanning between the two files it was fairly straightforward to see how to spot the differences.
+
+xx How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+-- This seems extraordinarily helpful, because I can see the mistakes I repeatedly make.
+Additionally, I can observe where I might have gone wrong and reflect on how I might do things better in the future.
+
+xx What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+-- You can add a line to note what changes were made prior to the commit. In doing this you allow a future person (maybe yourself) to logically compare the two previous versions and know what change was made.
+The con is – you might forget to save every time you make a logical change and then you get a mountain of unrelated changes between commits.
+
+
+xx Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+-- This concept was covered and answered fairly thoroughly in the lecture, so my getting it wrong here is going to be somewhat embarrassing. 
+The advantage of having a repository is it allows you to save a group of related files that could be affected by each revision. For example, the relationship between a CSS file and an html file is pretty tight, so you’d want to save the two of them together after any change.
+
