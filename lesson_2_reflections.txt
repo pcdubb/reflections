@@ -1,10 +1,30 @@
-What happens when you initialize a repository? Why do you need to do it?
+++What happens when you initialize a repository? Why do you need to do it?
 
 You need to tell git that you will be creating files at that location which you will wish to do version control on. There will probably be some other git commands we will learn that will instruct us on how to track the files.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+++How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Working Directory includes all of the files in that folder/directory.
 Staging area is just the files planned for the current commit.
 The Repository is the place where commits for all of the files in the directory are kept.
 It's advantage is it gives you the opportunity to commit the files you want no more/no less...
+
+++ How can you use the staging area to make sure you have one commit per logical change?
+
+Just add to the staging area the files you've recently changed.
+
+++ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help keep my hisory organized by allowing for you to make branches for given dates. you might just have the one commit on the date, but it would give you a snapshot of what things were like at the time of that commit.
+
+++How do the diagrams help you visualize the branch structure?
+
+Diagrams are helpful to point out where you are and what will be affected by a commit.
+
+++ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+This seems fairly self - evident, but it's kind of cool doing the course.
+
+++ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros are it save work and time in most situations
+Cons are - if a lot of conflicting changes were made to the same file, it could get fairly ugly.
